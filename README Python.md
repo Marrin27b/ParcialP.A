@@ -1,4 +1,4 @@
-<img width="1440" alt="Captura de pantalla 2025-05-25 a la(s) 12 59 44 p m" src="https://github.com/user-attachments/assets/0ef9ea6c-24bb-4142-8b8f-051fbe67ff7c" /># ParcialP.A
+ # ParcialP.A
 # Proyecto de Sistema de Parqueadero
 ## Integrantes del equipo
 - [Martin Samuel Monsalve Sánchez]
@@ -45,59 +45,8 @@ Facilita la toma de decisiones al momento de ingresar un vehículo.
 Con una función que recorre el mapa y cuenta cuántas posiciones están marcadas como `'P'` o `'X'`.
 
 **Diagrama de flujo**
-Inicio
-  │
-  ▼
-Generar mapa inicial
-  │
-  ▼
-+----------------------+
-| Mostrar menú         |
-| 1. Ingresar vehículo |
-| 2. Sacar vehículo    |
-| 3. Mostrar mapa      |
-| 4. Mostrar disp.     |
-| 5. Salir             |
-+----------------------+
-  │
-  ▼
-Leer opción del usuario
-  │
-  ├───► Opción 1? ─► Pedir placa
-  │                 │
-  │                 ▼
-  │         ¿Vehículo ya registrado?
-  │                 │
-  │           ├── Sí ─► Mostrar mensaje
-  │           │
-  │           └── No ─► Buscar espacio libre
-  │                         │
-  │                 ├── Hay espacio ─► Marcar como ocupado
-  │                 │                   Guardar datos vehículo
-  │                 │                   Mostrar mensaje
-  │                 └── No hay ─► Mostrar mensaje
-  │
-  ├───► Opción 2? ─► Pedir placa
-  │                 │
-  │         ¿Vehículo está registrado?
-  │                 │
-  │           ├── No ─► Mostrar error
-  │           └── Sí ─► Liberar espacio
-  │                       Eliminar del registro
-  │                       Mostrar mensaje
-  │
-  ├───► Opción 3? ─► Mostrar mapa
-  │
-  ├───► Opción 4? ─► Calcular espacios
-  │                 Mostrar disponibilidad
-  │
-  ├───► Opción 5? ─► Mostrar mensaje de salida
-  │                 Terminar programa
-  │
-  └───► Otra opción ─► Mostrar error
-  │
-  ▼
-Repetir menú
+![image](https://github.com/user-attachments/assets/f544ea06-ff00-422c-b9c1-da4c4d3c9c95)
+
 
 
 
