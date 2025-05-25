@@ -44,10 +44,6 @@ Facilita la toma de decisiones al momento de ingresar un vehículo.
 **¿Cómo se llevó a cabo su implementación?**
 Con una función que recorre el mapa y cuenta cuántas posiciones están marcadas como `'P'` o `'X'`.
 
-### Proyecto [Batalla Pokemon]
 
-## Integrantes del equipo
-- [Martin Samuel Monsalve Sánchez]
-- [David Santiago Trujillo]
 
 
